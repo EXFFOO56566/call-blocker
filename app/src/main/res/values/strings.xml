@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Call Blocker</string>
+
+
+    <string name="developername">Live.Moments</string>
+
+
+    <string name="email">jksolinfotech@gmail.com</string>
+
+
+    <string name="full_id">ca-app-pub-6160267152191160/2752237499</string>
+
+
+    <string name="support_below">Please write to jksolinfotech@gmail.com if you have any question</string>
+
+
+    <string name="blocking">Blocking</string>
+    <string name="blocking_below">Enable blocking</string>
+    <string name="blacklist">Black List</string>
+    <string name="log">Call Log</string>
+    <string name="more_feature">Plugins</string>
+    <string name="private_no">Private Numbers</string>
+    <string name="private_block">Block private numbers</string>
+    <string name="unknown">Unknown numbers</string>
+    <string name="block_all">Block all numbers except contacts</string>
+    <string name="all_calls">All Calls</string>
+    <string name="call_block">Block all calls</string>
+    <string name="whitelist">White list</string>
+    <string name="never_block">Never blocked numbers</string>
+    <string name="notification">Notification</string>
+    <string name="support">Support</string>
+    <string name="rate">Rate the app</string>
+    <string name="rate_below">Do you like this app? \nPlease, rate it.</string>
+    <string name="share">Share</string>
+    <string name="share_below">Do you want to share this app with your friends?</string>
+    <string name="otherapp">Other Applications</string>
+    <string name="other_below">Try also other apps of the developer.</string>
+    <string name="blacklict_fragment">Please click + button to add number to the blacklist.</string>
+    <string name="log_fragment">You have no blocked calls.</string>
+
+</resources>

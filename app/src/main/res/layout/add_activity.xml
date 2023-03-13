@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <EditText
+        android:id="@+id/add_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/top_text"
+        android:layout_marginLeft="@dimen/top_text"
+        android:layout_marginRight="@dimen/top_text"
+        android:layout_marginTop="@dimen/top_text"
+        android:layout_marginStart="@dimen/top_text"
+        android:hint="Number"
+        android:background="#00000000"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColorHint="@color/text_below" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/bottom_text"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/check" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:text="begins with"
+            android:textColor="@color/black"
+            android:textSize="@dimen/top_text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="@dimen/bottom_text"
+        android:layout_marginRight="@dimen/bottom_text"
+        android:layout_marginStart="@dimen/bottom_text"
+        android:layout_marginEnd="@dimen/bottom_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Please input number including country and area code."
+        android:textColor="@color/medium_text_disabled"
+        android:textSize="@dimen/top_text" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_floating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="end"
+        android:src="@drawable/done"
+        android:scaleType="center"
+        app:elevation="4dp" />
+
+
+</LinearLayout>
